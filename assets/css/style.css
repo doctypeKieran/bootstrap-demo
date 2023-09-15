@@ -5,7 +5,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
 
 .callout-container {
     height: 100vh;
@@ -14,11 +25,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 40px;
 }
 
 .opaque-overlay {
@@ -64,6 +75,17 @@ body {
     border: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 /* Jumbotron */
